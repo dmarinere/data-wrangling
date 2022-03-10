@@ -1,6 +1,9 @@
+# This is a sample Python script.
+
 import urllib.request
 import xml.etree.ElementTree as ET
 import csv
+
 csv_file = open('facts_and_figures.csv', 'a+', encoding="utf-8", newline='')
 csv_writer = csv.writer(csv_file)
 f = urllib.request.urlopen('https://en.wikipedia.org/wiki/Road_safety_in_Europe')
