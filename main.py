@@ -1,5 +1,3 @@
-# This is a sample Python script.
-
 import urllib.request
 import xml.etree.ElementTree as ET
 import csv
